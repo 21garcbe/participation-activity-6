@@ -1,0 +1,10 @@
+Q: What are python virtual environments and why are they useful?
+
+Virtual environments create a space for use of software packages 
+and a unique python interpreter to be sequestered in their own workspace.
+This way if a particular project has certain dependencies that you don't necessarily need
+system wide (like an older version of the python interpreter or the pygame library)
+you can work on that project in its own space without needing to install packages or create any
+kind of dependency conflicts by installing something you don't need system wide.
+It essentially keeps your workspaces for different projects clean and isolated if you have any sort of libraries or dependencies
+that are only needed for one project.
